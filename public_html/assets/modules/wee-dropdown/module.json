@@ -1,0 +1,24 @@
+{
+	"name": "Dropdown",
+	"description": "Create Dropdown Menus",
+	"version": "1.0.0",
+	"author": "Nathan Hood",
+	"homepage": "http://www.caddis.co",
+	"autoload": false,
+	"style": {
+		"build": [
+			"css/variables.less",
+			"css/screen.less"
+		]
+	},
+	"script": {
+		"build": [
+			"js/script.js"
+		]
+	},
+	"dependencies": {
+		"wee": "2.x.x",
+		"wee/dom": "2.x.x",
+		"wee/events": "2.x.x"
+	}
+}
