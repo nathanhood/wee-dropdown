@@ -96,7 +96,6 @@
 	"requireSpaceAfterPrefixUnaryOperators": [
 		"!"
 	],
-	"requireSpaceAfterLineComment": true,
 	"requireSpaceBeforeBinaryOperators": true,
 	"requireSpaceBeforeBlockStatements": true,
 	"requireSpaceBeforeKeywords": [
