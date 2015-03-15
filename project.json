@@ -1,6 +1,6 @@
 {
-	"name": "Project Name",
-	"description": "Project description.",
+	"name": "Wee Dropdown Demo",
+	"description": "Demo site for Wee Dropdown Module development",
 	"paths": {
 		"root": "public_html",
 		"assets": "assets"

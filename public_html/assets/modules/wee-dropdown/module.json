@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"author": "Nathan Hood",
 	"homepage": "http://www.caddis.co",
-	"autoload": false,
+	"autoload": true,
 	"style": {
 		"build": [
 			"css/variables.less",
@@ -19,6 +19,7 @@
 	"dependencies": {
 		"wee": "2.x.x",
 		"wee/dom": "2.x.x",
-		"wee/events": "2.x.x"
+		"wee/events": "2.x.x",
+		"wee/view": "2.x.x"
 	}
 }

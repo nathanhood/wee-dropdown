@@ -11,7 +11,7 @@ To use this module, simply drop the entire dropdown directory in Wee's `"modules
 ## Markup
 
 ```html
-<select class="wee-dropdown" data-bind="wee-dropdown" data-name="my-name">
+<select class="wee-dropdown" data-ref="weeDropdown" data-name="my-name">
 	<option value="1">Option 1</option>
 	<option value="2">Option 2</option>
 	<option value="3">Option 3</option>

@@ -5,16 +5,19 @@
 .wee-dropdown {
 	.background(@valueBackground);
 	.centered-block();
-	.max-width(28);
+	.max-width(30);
 	.cursor();
 	.relative();
 	&__value {
 		.background(@valueBackground);
 		.border(@valueBorderColor);
 		.color(@valueColor);
-		.padding(5px; 10px);
+		.padding(1; 1.5);
 		&:hover {
 			.background(@valueBackgroundHover);
+		}
+		&:selection {
+			.background(@valueBackground);
 		}
 	}
 	&__menu {
@@ -29,7 +32,8 @@
 	li {
 		.background(@dropdownBackground);
 		.color(@dropdownColor);
-		.padding(false; 1);
+		.line-height(1em);
+		.padding(1; 1.5);
 		.spaced(0);
 		&:hover {
 			.background(@dropdownBackgroundHover);
